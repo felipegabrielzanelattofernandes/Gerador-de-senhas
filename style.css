@@ -1,65 +1,82 @@
-
-/* Arquivo: meu-estilo.css */
-
-/* Mudando o fundo e cor geral */
 body {
-    background-color: #0d0d1a; /* tom mais escuro */
-    color: #f5f5f5; /* branco suave */
-    font-family: 'Verdana', sans-serif; /* fonte mais clean */
-}
-
-/* Container mais moderno */
-.container {
-    background: linear-gradient(135deg, #3b3b5c, #1f1f2f); /* degrade artístico */
-    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
-}
-
-/* Títulos com estilo diferenciado */
-h1, h2 {
+    background-color: #1e1e2f;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: auto;
+    background: #2c2c3c;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  h1, h2 {
     text-align: center;
-    font-family: 'Georgia', serif;
-    color: #ffcc00;
-    text-shadow: 1px 1px 3px #000;
-}
-
-/* Senha estilizada */
-.senha {
-    background-color: #444466;
-    padding: 15px;
-    font-size: 26px;
-    letter-spacing: 2px;
-    border: 2px dashed #ffcc00;
-    border-radius: 10px;
-}
-
-/* Controles mais suaves */
-.control {
-    background: #444466;
-    padding: 12px;
-    border-radius: 10px;
-    transition: all 0.3s ease;
-}
-.control:hover {
-    background: #55557a;
-}
-
-/* Botões do stepper */
-.stepper button {
-    background: #ff6600;
-    border-radius: 50%;
-    transition: transform 0.2s ease;
-}
-.stepper button:hover {
-    transform: scale(1.2);
-}
-
-/* Barras de força estilizadas */
-.bar {
-    background: linear-gradient(to right, red, orange, lime);
-}
-
-/* Crack time */
-#crack-time {
-    color: #ff9933;
-    font-style: italic;
-}
+  }
+  
+  .password-display {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .senha {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #3a3a4f;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .options {
+    margin: 20px 0;
+  }
+  
+  .control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3a3a4f;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .stepper button {
+    width: 30px;
+    height: 30px;
+    background: red;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .stepper span {
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  
+  .checkboxes label {
+    display: block;
+    margin: 8px 0;
+  }
+  
+  .strength {
+    margin-top: 20px;
+  }
+  
+  .bar {
+    height: 20px;
+    background-color: green;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  #crack-time {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
