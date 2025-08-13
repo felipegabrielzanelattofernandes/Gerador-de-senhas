@@ -1,1 +1,65 @@
 
+/* Arquivo: meu-estilo.css */
+
+/* Mudando o fundo e cor geral */
+body {
+    background-color: #0d0d1a; /* tom mais escuro */
+    color: #f5f5f5; /* branco suave */
+    font-family: 'Verdana', sans-serif; /* fonte mais clean */
+}
+
+/* Container mais moderno */
+.container {
+    background: linear-gradient(135deg, #3b3b5c, #1f1f2f); /* degrade artístico */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+/* Títulos com estilo diferenciado */
+h1, h2 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #ffcc00;
+    text-shadow: 1px 1px 3px #000;
+}
+
+/* Senha estilizada */
+.senha {
+    background-color: #444466;
+    padding: 15px;
+    font-size: 26px;
+    letter-spacing: 2px;
+    border: 2px dashed #ffcc00;
+    border-radius: 10px;
+}
+
+/* Controles mais suaves */
+.control {
+    background: #444466;
+    padding: 12px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.control:hover {
+    background: #55557a;
+}
+
+/* Botões do stepper */
+.stepper button {
+    background: #ff6600;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+}
+.stepper button:hover {
+    transform: scale(1.2);
+}
+
+/* Barras de força estilizadas */
+.bar {
+    background: linear-gradient(to right, red, orange, lime);
+}
+
+/* Crack time */
+#crack-time {
+    color: #ff9933;
+    font-style: italic;
+}
