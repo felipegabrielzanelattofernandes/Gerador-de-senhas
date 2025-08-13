@@ -1,82 +1,84 @@
 body {
-    background-color: #1e1e2f;
-    color: #fff;
+    background-color: #0d1b2a; /* fundo mais escuro */
+    color: #e0e0e0; /* texto mais claro */
     font-family: Arial, sans-serif;
     padding: 20px;
-  }
+}
   
-  .container {
+.container {
     max-width: 700px;
     margin: auto;
-    background: #2c2c3c;
+    background: #1b263b; /* container em tom azul escuro */
     padding: 30px;
     border-radius: 10px;
-  }
+}
   
-  h1, h2 {
+h1, h2 {
     text-align: center;
-  }
+}
   
-  .password-display {
+.password-display {
     text-align: center;
     margin: 20px 0;
-  }
+}
   
-  .senha {
+.senha {
     font-size: 24px;
     font-weight: bold;
-    background-color: #3a3a4f;
+    background-color: #415a77; /* fundo da senha */
+    color: #f0f0f0; /* cor do texto da senha */
     padding: 10px;
     border-radius: 5px;
-  }
+}
   
-  .options {
+.options {
     margin: 20px 0;
-  }
+}
   
-  .control {
+.control {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #3a3a4f;
+    background: #2a3d66; /* fundo das opções */
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
-  }
+}
   
-  .stepper button {
+.stepper button {
     width: 30px;
     height: 30px;
-    background: red;
+    background: #ff6b6b; /* botão vermelho mais suave */
     border: none;
-    color: #fff;
+    color: #ffffff; /* texto do botão */
     font-size: 18px;
     cursor: pointer;
-  }
+}
   
-  .stepper span {
+.stepper span {
     margin: 0 10px;
     font-size: 18px;
-  }
+}
   
-  .checkboxes label {
+.checkboxes label {
     display: block;
     margin: 8px 0;
-  }
+}
   
-  .strength {
+.strength {
     margin-top: 20px;
-  }
+}
   
-  .bar {
+.bar {
     height: 20px;
-    background-color: green;
+    background-color: #ffb400; /* barra de força amarela */
     width: 100%;
     border-radius: 5px;
-  }
+}
   
-  #crack-time {
+#crack-time {
     margin-top: 10px;
     text-align: center;
     font-size: 14px;
-  }
+    color: #c9d1d3; /* texto do tempo de quebra */
+}
